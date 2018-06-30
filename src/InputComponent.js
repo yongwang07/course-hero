@@ -42,7 +42,7 @@ export default class InputComponent extends Component {
       const {input} = this.state
       return (
         <form onSubmit={this.handleSubmit}>
-          <div className="App-title">
+          <div>
             <input className="App-title" placeholder="CS1111 Fall 2018" type="text" value={input} onChange={this.handChangeInput}/>
           </div>
         </form>

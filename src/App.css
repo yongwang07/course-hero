@@ -16,17 +16,20 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 1em;
+  margin: 0.5em auto;
   line-height: 1.5em;
   font-size: 1.5em;
+  width: 50%;
 }
 .Course-layout {
-  display: table;
   margin: auto;
+  height: 30em;
+  overflow: scroll;
 }
 .App-title {
   font-size: 1.5em;
   line-height: 2em;
+  width: 50%;
 }
 
 .App-intro {
